@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -13,7 +13,7 @@ body {
 .matrix-cont img {
     width: 100%;
 }
-.matrix-cont .more_inf {
+.more-info {
     font-family: fantasy, cursive;
 }
 
@@ -34,7 +34,7 @@ body {
 .task-row-wrapper {
     display: flex;
 }
-ul {
+#incomplete-tasks {
     margin:0;
     padding: 0px;
 }
@@ -138,11 +138,11 @@ ul li input[type=text] {
     display:none
 }
 
-ul li.editMode input[type=text] {
+ul li.edit-mode input[type=text] {
     display:inline-block;
     width:224px
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
     display:none;
 }
